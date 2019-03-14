@@ -1,6 +1,6 @@
 # TIC-TAC-TOE-Flask
 
-This is Falsk version of TIC TAC TOE game, no JavaScript is used.
+This is Flask version of TIC TAC TOE game, no JavaScript is used.
 
 The project was made for fun, as usual feel free to use the code. I'll be happy if somebody learn from the project.
 
