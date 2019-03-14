@@ -1,0 +1,37 @@
+.game_page
+{
+    width: 600px;
+    border: 3px yellow solid;
+    background-color: #93ecc0;
+    margin-top: 50px;
+    margin-left: 40%;
+}
+
+.alarm
+{
+    margin-left:60px;
+    margin-bottom: 10px;
+}
+
+table, td, th {
+  border: 1px solid yellow;
+}
+
+table {
+  border-collapse: collapse;
+  width: 400px;
+  margin-left: 100px;
+  margin-bottom: 100px;
+}
+
+td {
+  height: 50px;
+  text-align: center;
+}
+
+h4 {
+margin-left:60px;
+margin-bottom: 10px;
+}
+
+
