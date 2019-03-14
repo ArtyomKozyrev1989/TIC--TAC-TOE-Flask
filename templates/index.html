@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TIC TAC TOE start page</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='game_style.css') }}">
+</head>
+<body style="background-color: powderblue">
+    <div class="game_page">
+        <h1 style="margin: 70px; text-align: center;">Hello and welcome to TIC TAC TOE webapp game!</h1>
+        <form action="{{url_for('game')}}" style="background-color:#398358; padding:50px;
+        width:400px; margin: 50px; border: 3px yellow solid;">
+            <h4>Please choose players names!</h4>
+            <label for="first_player_name">Choose first player name: </label>
+            <input type="text" name="first_player_name" required> <br><br>
+            <label for="second_player_name">Choose second player name: </label>
+            <input type="text" name="second_player_name" required> <br> <br>
+            <input type="submit" value="Confirm" style="border 1px yellow solid">
+        </form>
+    </div>
+</body>
+</html>
